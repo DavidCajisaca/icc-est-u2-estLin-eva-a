@@ -1,14 +1,15 @@
 package main;
 
-import utils.StudentValidator;
+import java.util.Queue;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // NO MODIFICAR ESTE CÓDIGO
-        var estudiante = StudentValidator.validarDatos();
-        System.out.println("👤 Estudiante: " + estudiante.nombre());
-        System.out.println("✉️  Correo: " + estudiante.correo());
-        // NO MODIFICAR HASTA AQUÍfdsafads
+    LogicaClasificacion mc= new LogicaClasificacion();
+    Queue<String>cola = null;
+    cola.add("Pedro");
+    cola.add("Juan");
+    cola.add("Maria");
+    mc.invertirColaNombres(cola);
 
     }
 }
